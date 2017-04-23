@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Глейси</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="index-logo">
+        <img src="img/index-logo.png" width="100" height="35" alt="Магазин Глейси">
+      </div>
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li class="active">
+              <a>Каталог</a>
+            </li>
+            <li>
+              <a href="#">Доставка и оплата</a>
+            </li>
+            <li>
+              <a href="#">О компании</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+          <a class="btn" href="#">2 товара</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <nav class="catalog-navigation">
+        <ul>
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Каталог</a>
+          </li>
+          <li class="active1">
+            <a>Сливочное</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="top-info">
+        <p>
+          <span class="time-days">С 10 до 20, ежедневно</span>
+          <span class="phone">8 812 450-25-25</span>
+        </p>
+      </div>
+      <h2>Сливочное мороженое</h2>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <div class="sorting">
+          <p>Сортировка:</p>
+          <select name="sorting">
+            <option>по популярности</option>
+          </select>
+        </div>
+        <div class="price">
+          <p>Цена: 100 руб. - 500 руб.</p>
+          <input type="range" multiple>
+        </div>
+        <div class="fatness">
+          <fieldset class="fat-content">
+            <legend>Жирность:</legend>
+            <div class="zero">
+              <input type="radio" id="z" name="fatness" value="0%">
+              <label for="z">0%</label>
+            </div>
+            <div class="before-ten">
+              <input type="radio" id="b" name="fatness" value="до 10%" checked><!--можно value на русском задавать?-->
+              <label for="b">до 10%</label>
+            </div>
+            <div class="before-thirty">
+              <input type="radio" id="c" name="fatness" value="до 30%">
+              <label for="c">до 30%</label>
+            </div>
+            <div class="up-to-thirty">
+              <input type="radio" id="d" name="fatness" value="выше 30%">
+              <label for="d">выше 30%</label>
+            </div>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset class="icecream-fillers">
+            <legend>Наполнители:</legend>
+            <div class="filler">
+              <input type="checkbox" id="choco" name="chocolate" checked>
+              <label for="choco">шоколадные</label>
+            </div>
+            <div class="shugar">
+              <input type="checkbox" id="sh" name="shugar powders" checked>
+              <label for="sh">сахарные присыпки</label>
+            </div>
+            <div class="fruits">
+              <input type="checkbox" id="f" name="fruits">
+              <label for="f">фрукты</label>
+            </div>
+            <div class="syrups">
+              <input type="checkbox" id="s" name="syrups">
+              <label for="s">сиропы</label>
+            </div>
+            <div class="jams">
+              <input type="checkbox" id="j" name="jams">
+              <label for="j">джемы</label>
+            </div>
+          </fieldset>
+        </div>
+        <input type="submit" value="Применить"><!--или <button class="btn" type="submit">Показать</button>?-->
+      </form>
+      <section class="icecraem-items">
+        <figure class="creamy-orange">
+          <img src="img/photo-2.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></figcaption>
+        </figure>
+        <figure class="cafe-choco">
+          <img src="img/photo-2.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное-кофейное с кусочками шоколада</a></figcaption>
+        </figure>
+        <figure class="strawberry active2">
+          <img src="img/photo-3.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное-клубничное с присыпкой из белого шоколада</a></figcaption>
+          <a class="btn" href="#">Быстрый просмотр</a>
+        </figure>
+        <figure class="creme-brulee">
+          <img src="img/photo-4.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное крем брюле с карамельной подливой</a></figcaption>
+        </figure>
+        <figure class="foxberry">
+          <img src="img/photo-5.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное с брусничным джемом</a></figcaption>
+        </figure>
+        <figure class="blueberry">
+          <img src="img/photo-5.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное-черничное с цельными ягодами черники</a></figcaption>
+        </figure>
+        <figure class="lemon">
+          <img src="img/photo-5.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочно-лимонное с карамельной присыпкой</a></figcaption>
+        </figure>
+        <figure class="creamy">
+          <img src="img/photo-5.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное с шоколадной стружкой</a></figcaption>
+        </figure>
+        <figure class="vanilla">
+          <img src="img/photo-5.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное-ванильное с кусочками шоколада</a></figcaption>
+        </figure>
+        <figure class="menthole">
+          <img src="img/photo-5.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное с ментоловым сиропом</a></figcaption>
+        </figure>
+        <figure class="black-choco">
+          <img src="img/photo-5.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное с кусочками черного шоколада</a></figcaption>
+        </figure>
+        <figure class="mint">
+          <img src="img/photo-5.jpg" width="100" height="100" alt="">
+          <figcaption><a href="#">Сливочное с мятным сиропом</a></figcaption>
+        </figure>
+      </section>
+      <div class="paginator">
+          <ul>
+            <li class="prev"><a href="#"><</a></li>
+            <li class="control"><a class="active3">1</a></li>
+            <li class="control"><a href="#">2</a></li>
+            <li class="control"><a href="#">3</a></li>
+            <li class="control"><a href="#">4</a></li>
+            <li class="control"><a href="#">5</a></li>
+            <li class="next"><a href="#">>  </a></li>
+          </ul>
+      </div>
+      <footer class="main-footer">
+        <div class="container">
+          <section class="footer-social">
+            <a class="social-btn social-btn-tw" href="#">Твиттер</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-b" href="#">Баду</a>
+          </section>
+          <section class="footer-links">
+            <div>
+              <a href="#">Для поставщиков</a><br>
+              <a href="#">О производстве</a>
+            </div>
+            <div>
+              <a href="#">Наши документы</a><br>
+              <a href="#">Экологические стандарты</a>
+            </div>
+          </section>
+          <section class="logo-of-developer">
+            <img src="img/logo-of-developer.png" width="100" height="45" alt="HTML Academy">
+            <p>Сделано в <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>© 2016</p>
+          </section>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
