@@ -10,7 +10,7 @@
         <img src="img/index-logo.png" width="100" height="35" alt="Магазин Глейси">
       </div>
       <div class="container">
-        <nav class="main-navigation">
+        <nav class="breadcrumbs">
           <ul>
             <li>
               <a href="#">Каталог</a>
@@ -42,7 +42,7 @@
       <div class="slider">
         <input type="radio" name="slider1" checked>
         <input type="radio" name="slider2">
-        <input type="radio" name="slider1">
+        <input type="radio" name="slider3">
       </div>
       <div>
         <b><a class="btn-big" href="#">Давайте оба!</a></b>
@@ -51,53 +51,77 @@
         <div class="raspberry">
           <figure class="offer-content">
             <img src="img/photo-1.jpg" width="286" height="164" alt="">
-            <h2><b>Малинка даром!</b></h2>
+            <h2>Малинка даром!</h2>
             <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-            <button class="btn gallery-prev" type="button">Хочу варенье!</button>
+            <a class="btn" href="#">Хочу варенье!</a>
           </figure>
         </div>
         <div class="chocolate">
           <figure class="offer-content">
             <img src="img/photo-1.jpg" width="286" height="164" alt="">
-            <h2><b>Шоколадки даром!</b></h2>
+            <h2>Шоколадки даром!</h2>
             <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-            <button class="btn gallery-prev" type="button">Хочу шоколадки!</button>
+            <a class="btn" href="#">Хочу шоколадки!</a>
           </figure>
         </div>
       </section>
       <section class="hit-icecream">
-        <figure class="creamy-orange">
+        <div class="icecream">
           <img src="img/photo-2.jpg" width="100" height="100" alt="">
-          <figcaption><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></figcaption>
-        </figure>
-        <figure class="cafe-choco">
+          <div class="icecream-price">
+            <p><span class="ruble">310 &#8381;</span>/кг</p>
+          </div>
+          <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+          <div class="item-active">
+            <a href="#">Быстрый просмотр</a>
+          </div>
+        </div>
+        <div class="icecream">
           <img src="img/photo-2.jpg" width="100" height="100" alt="">
-          <figcaption><a href="#">Сливочное-кофейное с кусочками шоколада</a></figcaption>
-        </figure>
-        <figure class="strawberry">
+          <div class="icecream-price">
+            <p><span class="ruble">380 &#8381;</span>/кг</p>
+          </div>
+          <a href="#">Сливочное-кофейное с кусочками шоколада</a>
+          <div class="item-active">
+            <a href="#">Быстрый просмотр</a>
+          </div>
+        </div>
+        <div class="icecream">
           <img src="img/photo-3.jpg" width="100" height="100" alt="">
-          <figcaption><a href="#">Сливочное-клубничное с присыпкой из белого шоколада</a></figcaption>
-        </figure>
-        <figure class="creme-brulee">
+          <div class="icecream-price">
+            <p><span class="ruble">355 &#8381;</span>/кг</p>
+          </div>
+          <a href="#">Сливочное-клубничное с присыпкой из белого шоколада</a>
+          <div class="item-active">
+            <a href="#">Быстрый просмотр</a>
+          </div>
+        </div>
+        <div class="icecream">
           <img src="img/photo-4.jpg" width="100" height="100" alt="">
-          <figcaption><a href="#">Сливочное крем брюле с карамельной подливой</a></figcaption>
-        </figure>
+          <div class="icecream-price">
+            <p><span class="ruble">415 &#8381;</span>/кг</p>
+          </div>
+          <a href="#">Сливочное крем брюле с карамельной подливой</a>
+          <div class="item-active">
+            <a href="#">Быстрый просмотр</a>
+          </div>
+        </div>
       </section>
       <section class="about-gllasy">
         <h2>Магазин Глэйси - это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h2>
-        <div>
+        <div class="icecreme-picture">
           <p>Все наше мороженое изготавливается на собственном производстве,
              с использованием современного оборудования и проверенных временем технологий.</p>
         </div>
-        <div>
+        <div class="cow-picture">
           <p>Закупка ингридиентов производится только у проверенных фермерских хозяйств и компаний,
              с которыми нас связывает долговременное сотрудничество.</p>
         </div>
-        <div>
+        <div class="leaf-picture">
           <p>Для приготовления мороженного используются настоящие сливки и молоко высочайшего качества.
           Все дополнительные ингридиенты и добавки произведены из натурального, экологически чистого сырья.</p>
         </div>
-        <div>
+        <div class="thermometer-picture">
           <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке,
            который не дает мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.</p>
         </div>
@@ -123,7 +147,7 @@
         <div class="map">
           <div class="feedback-form">
             <ul>
-              <li><p>Адрес главного офиса и офлайн магазина</p></li><!-- или просто с помощью <p>?-->
+              <li><p>Адрес главного офиса и офлайн магазина</p></li><!-- а лучше с р или через список?-->
               <li><p>ул. Большая Конюшенная 19/8, Санкт-Петербург</p></li>
               <li><p>Для заказов по телефону:</p></li>
               <li><p>8 812 450-25-25</p></li>
@@ -144,7 +168,7 @@
         </section>
         <section class="footer-links">
           <div>
-            <a href="#">Для поставщиков</a><br>
+            <a class="heart-icon" href="#">Для поставщиков</a>
             <a href="#">О производстве</a>
           </div>
           <div>
@@ -154,7 +178,7 @@
         </section>
         <section class="logo-of-developer">
           <img src="img/logo-of-developer.png" width="100" height="45" alt="HTML Academy">
-          <p>Сделано в <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>© 2016</p>
+          <p>Сделано в <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>© 2016</p>
         </section>
       </div>
     </footer>
