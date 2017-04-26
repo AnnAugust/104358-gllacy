@@ -1,0 +1,16 @@
+body {
+  font-family: "Roboto";
+  color: #ffffff;/* так как текст задан белый и нет фона, то слова, которые не ссылки, не видны*/
+}
+
+.main-nav {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.user-block {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: medium;
+}
