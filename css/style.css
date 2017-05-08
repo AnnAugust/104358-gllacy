@@ -1,16 +1,275 @@
+*{outline: 1px solid black;}
 body {
   font-family: "Roboto";
-  color: #ffffff;/* так как текст задан белый и нет фона, то слова, которые не ссылки, не видны*/
+  color: #ffffff;
+  background-color: #849d8f;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 27px;
+  padding-right: 27px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.main-header {
+  margin-top: 9px;
+  margin-bottom: 396px;
+}
+
+.index-logo {
+  float:left;
+  width: 154px;
+  height: 64px;
+  margin-right: 25px;
 }
 
 .main-nav {
   font-size: 16px;
   line-height: 18px;
   font-weight: bold;
+  float:left;
+  width: 600px;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 28px;
 }
 
 .user-block {
+  float:right;
+  width: 270px;
   font-size: 14px;
   line-height: 16px;
   font-weight: medium;
+}
+
+.login {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+  margin-left: 90px;
+  margin-right: 10px;
+}
+
+.basket {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+}
+
+.top-info {
+  position: absolute;
+  top: 75px;
+  left: 1081px;
+  width: 167px;
+}
+
+.time-days {
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 16px;
+}
+
+.phone {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  line-height: 60.35px;
+  width: 793px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 27px;
+}
+
+.slider {
+  float: left;
+  width: 60px;
+  margin-right: 350px;
+}
+
+.radio1,
+.radio2,
+.radio3 {
+  margin: 2px;
+}
+
+.center-btn {
+  float: left;
+  text-align: center;
+  font-size: 32px;
+  line-height: 44px;
+  width: 280px;
+  min-height: 65px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.big-btn {
+  vertical-align: middle; /*не работает*/
+}
+
+.special-offers {
+  clear: both;
+  margin-bottom: 40px;
+}
+
+.raspberry {
+  float: left;
+  width: 560px;
+  margin-right: 26px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.lead {
+  margin: 0;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.chocolate {
+  float: right;
+  width: 560px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hit-icecream {
+  margin-bottom: 30px;
+}
+
+.icecream {
+  float: left;
+  width: 268px;
+  margin-right: 24px;
+}
+
+.icecream:last-child {
+  margin-right: 0;
+}
+
+.about-gllacy {
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.icecreme-icon,
+.leaf-icon {
+  float: left;
+  width: 560px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 26px;
+  padding: 5px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+.cow-icon,
+.thermometer-icon {
+  float: right;
+  width: 560px;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 5px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+.info-blocks {
+  margin-bottom: 40px;
+}
+
+.news {
+  float: left;
+  width: 560px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 26px;
+  background-image: url(img/news-block.jpg);/*почему нет картинки?*/
+  box-sizing: border-box;
+}
+
+.news-lead2 {
+  display: inline-block;
+  width: 325px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.subscription {
+  float: right;
+  width: 560px;
+}
+
+.subscription-text {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.feedback-form{
+  float: right;
+  width: 300px;
+}
+
+.main-footer {
+  clear: both;
+  margin-top: 20px;
+}
+
+.footer-social {
+  float: left;
+  width: 188px;
+  margin-right: 214px;
+  box-sizing: border-box;
+}
+
+.social-btn {
+  float: left;
+  width: 38px;
+  height: 38px;
+  margin-right: 12px;
+}
+
+.social-btn:last-child {
+  margin-right: 0;
+}
+
+.footer-links {
+  float: left;
+  width: 326px;
+  font-size: 13px;
+  line-height: 18px;
+  margin-right: 230px;
+  box-sizing: border-box;
+}
+
+.logo-of-developer {
+  float: right;
+  width: 188px;
+}
+
+.made-in {
+  font-size: 12px;
+  line-height: 18px;
 }

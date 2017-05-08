@@ -7,12 +7,12 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <div class="index-logo">
-          <img src="img/Logo.png" width="100" height="35" alt="Магазин Глейси">
+          <img src="img/logo.png" width="154" height="64" alt="Магазин Глейси">
         </div>
         <nav class="main-nav">
-          <ul>
+          <ul class="nav">
             <li>
               <a href="catalog.html">Каталог</a>
             </li>
@@ -26,49 +26,47 @@
         </nav>
         <div class="user-block">
           <a href="#" class="search"></a>
-          <div>
-            <form action="/search" method="post">
+          <div class="search-form">
+            <form action="/search" method="get">
               <input type="search" placeholder="Что ищем?">
             </form>
           </div>
           <a class="login" href="#">Вход</a>
           <a class="basket" href="#">Пусто</a>
         </div>
+        <div class="top-info">
+            <div class="time-days">С 10 до 20, ежедневно</div>
+            <div class="phone">8 812 450-25-25</div>
+        </div>
       </div>
     </header>
     <main class="container">
-      <div class="top-info">
-        <p>
-          <span class="time-days">С 10 до 20, ежедневно</span>
-          <span class="phone">8 812 450-25-25</span>
-        </p>
+      <div class="title clearfix">
+        <b>Крем брюле и пломбир с малиновым джемом</b>
       </div>
-      <div class="title">
-        <p>Крем брюле и пломбир с малиновым джемом</p>
+      <div class="slider clearfix">
+        <input class="radio1" type="radio" name="slider1" checked>
+        <input class="radio2" type="radio" name="slider2">
+        <input class="radio3" type="radio" name="slider3">
       </div>
-      <div class="slider">
-        <input type="radio" name="slider1" checked>
-        <input type="radio" name="slider2">
-        <input type="radio" name="slider3">
-      </div>
-      <div>
+      <div class="center-btn clearfix">
         <b><a class="btn-big" href="#">Давайте оба!</a></b>
       </div>
-      <section class="special-offers">
+      <section class="special-offers clearfix">
         <div class="raspberry">
-          <h2>Малинка даром!</h2>
+          <p class="lead">Малинка даром!</p>
           <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
           <a class="btn" href="#">Хочу варенье!</a>
         </div>
         <div class="chocolate">
-          <h2>Шоколадки даром!</h2>
+          <p class="lead">Шоколадки даром!</p>
           <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
           <a class="btn" href="#">Хочу шоколадки!</a>
         </div>
       </section>
-      <section class="hit-icecream">
+      <section class="hit-icecream clearfix">
         <div class="icecream">
-          <img src="img/item1.jpg" width="100" height="100" alt="">
+          <img src="img/item1.jpg" width="268" height="268" alt="">
           <div class="icecream-price">
             <p><span class="ruble">310 &#8381;</span>/кг</p>
           </div>
@@ -78,7 +76,7 @@
           </div>
         </div>
         <div class="icecream">
-          <img src="img/item2.jpg" width="100" height="100" alt="">
+          <img src="img/item2.jpg" width="268" height="268" alt="">
           <div class="icecream-price">
             <p><span class="ruble">380 &#8381;</span>/кг</p>
           </div>
@@ -88,7 +86,7 @@
           </div>
         </div>
         <div class="icecream">
-          <img src="img/item3.jpg" width="100" height="100" alt="">
+          <img src="img/item3.jpg" width="268" height="268" alt="">
           <div class="icecream-price">
             <p><span class="ruble">355 &#8381;</span>/кг</p>
           </div>
@@ -98,7 +96,7 @@
           </div>
         </div>
         <div class="icecream">
-          <img src="img/item4.jpg" width="100" height="100" alt="">
+          <img src="img/item4.jpg" width="268" height="268" alt="">
           <div class="icecream-price">
             <p><span class="ruble">415 &#8381;</span>/кг</p>
           </div>
@@ -108,32 +106,32 @@
           </div>
         </div>
       </section>
-      <section class="about-gllasy">
-        <h2>Магазин Глэйси - это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h2>
+      <section class="about-gllacy clearfix">
+        <h1>Магазин Глэйси - это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h1>
         <div class="icecreme-icon">
-          <p>Все наше мороженое изготавливается на собственном производстве,
-             с использованием современного оборудования и проверенных временем технологий.</p>
+          Все наше мороженое изготавливается на собственном производстве,
+             с использованием современного оборудования и проверенных временем технологий
         </div>
         <div class="cow-icon">
-          <p>Закупка ингридиентов производится только у проверенных фермерских хозяйств и компаний,
-             с которыми нас связывает долговременное сотрудничество.</p>
+          Закупка ингридиентов производится только у проверенных фермерских хозяйств и компаний,
+             с которыми нас связывает долговременное сотрудничество.
         </div>
         <div class="leaf-icon">
-          <p>Для приготовления мороженного используются настоящие сливки и молоко высочайшего качества.
-          Все дополнительные ингридиенты и добавки произведены из натурального, экологически чистого сырья.</p>
+          Для приготовления мороженного используются настоящие сливки и молоко высочайшего качества.
+          Все дополнительные ингридиенты и добавки произведены из натурального, экологически чистого сырья.
         </div>
         <div class="thermometer-icon">
-          <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке,
-           который не дает мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.</p>
+          Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке,
+           который не дает мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.
         </div>
       </section>
-      <section class="info-blocks">
+      <section class="info-blocks clearfix">
         <div class="news">
-          <h5>Новое в нашем блоге</h5>
-          <a href="#">10 способов сервировки фруктовых шербетов к столу</a>
+          <p class="news-lead1">Новое в нашем блоге</p>
+          <a class="news-lead2" href="#">10 способов сервировки фруктовых шербетов к столу</a>
         </div>
         <div class="subscription">
-          <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит.
+          <p class="subscription-text">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит.
              Обещаем не спамить и не слать всякой не нужной ерунды. Честно:)</p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru" method="post">
             <input type="text" name="e-mail" value="" placeholder="Электронная почта">
@@ -141,9 +139,9 @@
           </form>
         </div>
       </section>
-      <div class="adress">
+      <div class="adress clearfix">
         <div class="map">
-          <img src="img/map.jpg" alt="">
+          <img src="img/map.jpg" alt=""> <!--как сделать карту сзади блока?-->
           <div class="feedback-form">
             <p>Адрес главного офиса и офлайн магазина</p>
             <p><span class="map-text">ул. Большая Конюшенная 19/8, Санкт-Петербург</span></p>
@@ -156,26 +154,24 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-social">
-          <a class="social-btn social-btn-tw" href="#">Твиттер</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-b" href="#">Баду</a>
+          <a class="social-btn" href="#"><img src="img/twitter.png" alt="Твиттер"></a>
+          <a class="social-btn" href="#"><img src="img/instagram.png"alt="Инстаграм"></a>
+          <a class="social-btn" href="#"><img src="img/facebook.png" alt="Фейсбук"></a>
+          <a class="social-btn" href="#"><img src="img/vk.png" alt="ВК"></a>
         </section>
         <section class="footer-links">
           <div>
             <a class="heart-icon" href="#">Для поставщиков</a>
             <a href="#">О производстве</a>
-          </div>
-          <div>
             <a href="#">Наши документы</a><br>
             <a href="#">Экологические стандарты</a>
           </div>
         </section>
-        <section class="logo-of-developer">
+        <section class="logo-of-developer clearfix">
            <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-of-developer.png" width="100" height="45" alt="HTML Academy"></a>
-          <p>Сделано в <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>© 2016</p>
+           <p class="made-in">Сделано в <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>© 2017</p>
         </section>
       </div>
     </footer>
