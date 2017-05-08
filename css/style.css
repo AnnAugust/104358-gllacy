@@ -1,4 +1,4 @@
-*{outline: 1px solid black;}
+/**{outline: 1px solid black;}*/
 body {
   font-family: "Roboto";
   color: #ffffff;
@@ -168,6 +168,18 @@ body {
   margin-right: 0;
 }
 
+.icecream-price {
+  position: absolute;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.ruble {
+  font-size: 45px;
+  line-height: 45px;
+}
+
 .about-gllacy {
   box-sizing: border-box;
   margin-bottom: 40px;
@@ -211,7 +223,6 @@ body {
   font-size: 16px;
   line-height: 22px;
   margin-right: 26px;
-  background-image: url(img/news-block.jpg);/*почему нет картинки?*/
   box-sizing: border-box;
 }
 
@@ -233,8 +244,23 @@ body {
 }
 
 .feedback-form{
-  float: right;
-  width: 300px;
+  position: absolute;
+  top: 1830px;
+  right: 127px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  width: 302px;
+  height: 305px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.map-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
 }
 
 .main-footer {
@@ -356,7 +382,6 @@ body {
 
 .paginator ul {
   padding-left: 0;
-
 }
 
 .paginator li {
